@@ -60,10 +60,6 @@ Keep in mind that the Logi Plugin Service (LPS) needs to be restarted after each
 
 `$ killall LogiPluginService`
 
-On Windows, the simplest approach is to restart the LPS automatically by adding the following as a post-build instruction in the Visual Studio project settings:
-
-`"C:\Program Files\Logi\LogiPluginService\LoupeTool.exe" "restart"`
-
 ## Logs
 
 To help debug, the logs for the plugins can be found at the following location:
